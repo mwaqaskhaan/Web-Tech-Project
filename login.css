@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(239, 218, 221);
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+header .logo {
+    text-align: center;
+}
+
+header .logo img {
+    width: 70px; 
+}
+
+
+.login-container {
+    background-image: url("./images/background.jpg");
+    height: 550px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginbtn {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 204, 209);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.9s;
+    margin-left: 40px;
+    margin-right: 30px;
+
+}
+
+.loginbtn:hover {
+    background-color: rgb(141, 46, 60);
+    color: white; 
+    
+}
+.register-link{
+    margin-left: 45px;
+    margin-right: 30px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
